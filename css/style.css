@@ -100,6 +100,13 @@ header #mobile_close_btn {
     display: none;
 }
 
+header #mobile_close_btn {
+    position: fixed;
+    z-index: 3;
+    top: 30px;
+    right: 30px;
+}
+
 header #mobile_nav_btn:hover,
 header #mobile_close_btn:hover {
     cursor: pointer;
